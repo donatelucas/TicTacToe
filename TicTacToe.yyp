@@ -159,6 +159,22 @@
             }
         },
         {
+            "Key": "b73e0c26-e46b-49c6-a4ef-45b5e9455c89",
+            "Value": {
+                "id": "b4aa65d4-d734-4bdc-a200-c942e33626a9",
+                "resourcePath": "scripts\\scr_distanceControl\\scr_distanceControl.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b787edf6-fb2b-4228-bb97-520ebff5523f",
+            "Value": {
+                "id": "50fa7189-7ba9-4e53-8463-ed770b360f13",
+                "resourcePath": "objects\\obj_position\\obj_position.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b8f490c0-a40a-46ef-b675-7c066dce06ea",
             "Value": {
                 "id": "df8e235a-018a-4780-8aeb-d87bb5f4388a",
@@ -196,6 +212,14 @@
                 "id": "0b2cc63b-8f66-4ebb-9026-e946a6fabb2c",
                 "resourcePath": "views\\d6cdc241-2d28-4a62-919d-e338dd462adf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d99a3e22-022a-4bf0-aff3-d03ecca7a5eb",
+            "Value": {
+                "id": "d58b1386-6363-4db0-bad7-fb655a3f9831",
+                "resourcePath": "sprites\\spr_position\\spr_position.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -256,7 +280,8 @@
         }
     ],
     "script_order": [
-        "9146ff20-e8a8-4999-a161-2b148dc82397"
+        "9146ff20-e8a8-4999-a161-2b148dc82397",
+        "b73e0c26-e46b-49c6-a4ef-45b5e9455c89"
     ],
     "tutorial": ""
 }
