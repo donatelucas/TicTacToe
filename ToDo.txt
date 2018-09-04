@@ -1,0 +1,7 @@
+Gather and display user names
+Display a proper board
+Take turns, detect and announce winner
+Prevent illegal moves
+Indicate Draw
+When match is over, restart to play again
+

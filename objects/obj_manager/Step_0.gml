@@ -3,4 +3,11 @@
 
 scr_turns();
 
-if(keyboard_check(ord("R"))) room_restart();
+if (global.first < 1) match = 0;
+else match = 1;
+
+
+if(keyboard_check(ord("R"))) 
+{
+	room_restart();
+}

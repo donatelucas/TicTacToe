@@ -1,0 +1,1 @@
+global.first = 0;
