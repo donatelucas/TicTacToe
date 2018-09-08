@@ -3,6 +3,6 @@
 
 turn = false;
 match = 0;
-global.nameX = get_string("Enter Name for X:", "Anonymous X");
-global.nameO = get_string("Enter Name for Y:", "Anonymous O");
+global.nameX = get_string("Enter Name for Player X:", "Anonymous X");
+global.nameO = get_string("Enter Name for Player Y:", "Anonymous O");
 

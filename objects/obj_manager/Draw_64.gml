@@ -4,10 +4,10 @@
 
 if (!turn)
 {
-	draw_text(30, 415, "Player X: " + global.nameX);
+	draw_text(30, 415, "" + global.nameX);
 }
 else
 {
-	draw_text(30, 415, "Player O: " + global.nameO);
+	draw_text(30, 415, "" + global.nameO);
 }
 
