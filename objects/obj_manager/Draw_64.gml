@@ -11,4 +11,4 @@ else
 	draw_text(30, 415, "" + global.nameO);
 }
 
-draw_text(30, 425, position);
+draw_text(30, 425, position[0]);

@@ -5,4 +5,4 @@ turn = false;
 match = 0;
 global.nameX = get_string("Enter Name for Player X:", "Anonymous X");
 global.nameO = get_string("Enter Name for Player Y:", "Anonymous O");
-position = false;
+position[0] = false;
