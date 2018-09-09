@@ -11,120 +11,111 @@
 
 if (mouse_x >= 96 && mouse_x <= 192 && mouse_y >= 64 && mouse_y <= 160)
 {
+	p0 = true;
 	if (!turn)
 	{
 		position[0] = 1;
-		p0 = true;
 	}
 	else
 	{
 		position[0] = 2;	
-		p0 = true;
 	}
 }
 else if (mouse_x >= 224 && mouse_x <= 320 && mouse_y >= 64 && mouse_y <= 160)
 {
+	p1 = true;
 	if (!turn)
 	{
 		position[1] = 1;
-		p1 = true;
 	}
 	else
 	{
 		position[1] = 2;
-		p1 = true;
 	}
 }
 else if (mouse_x >= 352 && mouse_x <= 448 && mouse_y >= 64 && mouse_y <= 160) 
 {
+	p2 = true;
 	if (!turn)
 	{
 		position[2] = 1;
-		p2 = true;
 	}
 	else
 	{
 		position[2] = 2;
-		p2 = true;
 	}
 }
 // row 2
 else if (mouse_x >= 96 && mouse_x <= 192 && mouse_y >= 192 && mouse_y <= 288) 
 {
+	p3 = true;
 	if (!turn)
 	{
 		position[3] = 1;
-		p3 = true;
 	}
 	else
 	{
 		position[3] = 2;
-		p3 = true;
 	}
 }
 else if (mouse_x >= 224 && mouse_x <= 320 && mouse_y >= 192 && mouse_y <= 288)
 {
+	p4 = true;
 	if (!turn)
 	{
 		position[4] = 1;
-		p4 = true;
 	}
 	else
 	{
 		position[4] = 2;
-		p4 = true;
 	}
 }
 else if (mouse_x >= 352 && mouse_x <= 448 && mouse_y >= 192 && mouse_y <= 288)
 {
+	p5 = true;
 	if (!turn)
 	{
 		position[5] = 1;
-		p5 = true;
 	}
 	else
 	{
 		position[5] = 2;
-		p5 = true;
 	}
 }
 // row 3
 else if (mouse_x >= 96 && mouse_x <= 192 && mouse_y >= 320 && mouse_y <= 416)
 {
+	p6 = true;
 	if (!turn)
 	{
 		position[6] = 1;
-		p6 = true;
 	}
 	else
 	{
 		position[6] = 2;
-		p6 = true;
 	}
 }
 else if (mouse_x >= 224 && mouse_x <= 320 && mouse_y >= 320 && mouse_y <= 416)
 {
+	p7 = true;
 	if (!turn)
 	{
 		position[7] = 1;
-		p7 = true;
 	}
 	else
 	{
 		position[7] = 2;
-		p7 = true;
 	}
 } 
 else if (mouse_x >= 352 && mouse_x <= 448 && mouse_y >= 320 && mouse_y <= 416)
 {
+	p8 = true;
 	if (!turn)
 	{
 		position[8] = 1;
-		p8 = true;
 	}
 	else
 	{
 		position[8] = 2;
-		p8 = true;
 	}
 }

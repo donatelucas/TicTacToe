@@ -1,4 +1,4 @@
-range = 32;
+range = 48;
 var Nearest = instance_nearest(x, y, obj_position);
 if(distance_to_object(Nearest) < range)
 {
