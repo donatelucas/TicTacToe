@@ -34,6 +34,7 @@ else if (position[6] == 2 && position[7] == 2 && position[8] == 2)
 	flag = true;
 	victory = global.nameO;
 }
+
 // Vertical Checks
 else if (position[0] == 1 && position[3] == 1 && position[6] == 1)
 {
@@ -50,21 +51,22 @@ else if (position[2] == 1 && position[5] == 1 && position[8] == 1)
 	flag = true;
 	victory = global.nameX;
 }
-else if (position[0] == 2 && position[1] == 2 && position[2] == 2)
+else if (position[0] == 2 && position[3] == 2 && position[6] == 2)
 {
 	flag = true;
 	victory = global.nameO;
 }
-else if (position[3] == 2 && position[4] == 2 && position[5] == 2)
+else if (position[1] == 2 && position[4] == 2 && position[7] == 2)
 {
 	flag = true;
 	victory = global.nameO;
 }
-else if (position[6] == 2 && position[7] == 2 && position[8] == 2)
+else if (position[2] == 2 && position[5] == 2 && position[8] == 2)
 {
 	flag = true;
 	victory = global.nameO;
 }
+
 // Diagonal Checks
 else if (position[0] == 1 && position[4] == 1 && position[8] == 1)
 {
@@ -86,8 +88,7 @@ else if (position [2] == 2 && position[4] == 2 && position[6] == 2)
 	flag = true;
 	victory = global.nameO;
 }
-else if (count > 8)
+else if (count >= 9)
 {
-	flag = true;
 	victory = "It's a tie! Such skill, much wow";
 }

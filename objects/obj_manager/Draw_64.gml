@@ -24,4 +24,13 @@ draw_text(50, 445, position[8]);
 draw_text(30, 42, count);
 draw_text(30, 55, victory);
 
+draw_text(480, 415, p0);
+draw_text(490, 415, p1);
+draw_text(500, 415, p2);
+draw_text(480, 430, p3);
+draw_text(490, 430, p4);
+draw_text(500, 430, p5);
+draw_text(480, 445, p6);
+draw_text(490, 445, p7);
+draw_text(500, 445, p8);
 
