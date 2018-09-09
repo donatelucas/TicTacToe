@@ -1,4 +1,10 @@
-// Unfortunately, couldn't find a prettier way to deal with all of these variables. 
+// Unfortunately, couldn't find a prettier way to deal with all of these variables. FeelsBadMan
+/* 
+	Why a 1D array instead of a 2D array?
+	Based on the same principle behind on why I chose GameMaker 2 for this project, because it would be 
+	the best choice for the job. A set of 2D arrays unfortunately is cumbersome code writing (somewhat) in
+	GameMaker 2.
+*/
 
 if (mouse_x >= 96 && mouse_x <= 192 && mouse_y >= 64 && mouse_y <= 160)
 {
