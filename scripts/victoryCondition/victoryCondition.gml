@@ -90,5 +90,6 @@ else if (position [2] == 2 && position[4] == 2 && position[6] == 2)
 }
 else if (count >= 9)
 {
+	flag = true;
 	victory = "It's a tie! Such skill, much wow";
 }

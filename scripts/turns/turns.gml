@@ -1,7 +1,7 @@
 /// This script intends to create the intermitent rounds, switching it to the next player after every click
-if (mouse_check_button_released(mb_left) && !turn && !flag && !position_meeting(mouse_x, mouse_y, obj_x) && !position_meeting(mouse_x, mouse_y, obj_o))
+if (mouse_check_button_released(mb_left) && !turn && !flag)
 { 
-	if (!position_meeting(mouse_x, mouse_y, obj_section) || !position_meeting(mouse_x, mouse_y, obj_corner) && position_meeting(mouse_x, mouse_y, obj_position))
+	if ( (!position_meeting(mouse_x, mouse_y, obj_section) || !position_meeting(mouse_x, mouse_y, obj_corner) ) && ( position_meeting(mouse_x, mouse_y, obj_position) && !position_meeting(mouse_x, mouse_y, obj_x) && !position_meeting(mouse_x, mouse_y, obj_o)) )
 	{
 		mouseCheck();
 		positionControl();
@@ -10,9 +10,9 @@ if (mouse_check_button_released(mb_left) && !turn && !flag && !position_meeting(
 		count++;
 	}
 }
-else if (mouse_check_button_released(mb_left) && turn && !flag && !position_meeting(mouse_x, mouse_y, obj_x) && !position_meeting(mouse_x, mouse_y, obj_o))
+else if (mouse_check_button_released(mb_left) && turn && !flag)
 {
-	if (!position_meeting(mouse_x, mouse_y, obj_section) || !position_meeting(mouse_x, mouse_y, obj_corner) && position_meeting(mouse_x, mouse_y, obj_position))
+	if ( (!position_meeting(mouse_x, mouse_y, obj_section) || !position_meeting(mouse_x, mouse_y, obj_corner) ) && ( position_meeting(mouse_x, mouse_y, obj_position) && !position_meeting(mouse_x, mouse_y, obj_x) && !position_meeting(mouse_x, mouse_y, obj_o)) )
 	{
 		mouseCheck();
 		positionControl();
