@@ -1,3 +1,5 @@
+// Checks for Victory conditions
+
 /*
 	Another case where I couldn't think of a better way of adjusting all of this checks. If you know a pattern
 	that could improve it, let me know. 

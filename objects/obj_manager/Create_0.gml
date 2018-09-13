@@ -6,8 +6,8 @@ victory = ""; // String that holds who won the match
 turn = false; // Well, whose turn is it?
 illegal = false; // To prevent illegal moves
 count = 0; // Count number of moves
-global.nameX = get_string("Enter Name for Player X:", "Anonymous X");
-global.nameO = get_string("Enter Name for Player Y:", "Anonymous O");
+global.nameX = get_string("Enter Name for Player X:", "Anonymous X"); // X Player name
+global.nameO = get_string("Enter Name for Player Y:", "Anonymous O"); // O Player name
 
 // Board Positions
 position[0] = 0;
