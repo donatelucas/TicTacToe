@@ -1,4 +1,4 @@
-# Tic Tac Toe Project for Loyola University Chicago class
+# Tic Tac Toe Project for Loyola University Chicago
 
 It's a TicTacToe, what's there to explain?
 
