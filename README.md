@@ -30,7 +30,7 @@ There's an .exe installer included in the root folder. Double-click that, instal
 
 ## Authors
 
-* **Lucas Perez** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Lucas Perez**
 
 ## License
 
